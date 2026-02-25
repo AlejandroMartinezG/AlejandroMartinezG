@@ -13,26 +13,47 @@ My focus: build systems that help teams capture quality data correctly, find it 
 ---
 
 ### 🧰 Core stack
-- **Languages**: Python, TypeScript, JavaScript  
-- **Web**: Next.js, Node.js, Tailwind CSS  
-- **Automation**: n8n  
-- **Other**: VPS (deployment & environments)
+- **Languages**: TypeScript, JavaScript, Python
+- **Web**: Next.js (App Router), Tailwind CSS, Supabase
+- **Database**: PostgreSQL (PLpgSQL), SQL
+- **Automation**: n8n, GitHub Actions
+- **Other**: VPS, Git/GitHub, Docker, Power BI
 
-**Also relevant (recommended to add if you actually use them):**  
-Git/GitHub · SQL (PostgreSQL) · Docker · Power BI · Supabase · REST APIs · CI/CD (GitHub Actions)
 
 ---
 
 ### 📌 Featured projects
-#### 1) Ginez — Documentary Catalog (Raw Materials & Finished Products)
-**Goal:** quick access to technical and safety documentation for MP/PT across the organization.  
-**Tech:** Next.js 14, Tailwind, shadcn/ui, TanStack Table, Fuse.js, Zod, Lucide  
-**Status:** In progress (link soon)
 
-#### 2) Production Log + Quality Parameters (Bitácora)
-**Goal:** structured logging for production data + quality parameters, with improved UX and faster processing.  
-**Tech:** Next.js 14, Tailwind, shadcn/ui, TanStack Table, Fuse.js, Zod, Lucide  
-**Status:** In progress (link soon)
+#### 1) [quality-hub (PCC-GINEZ®)](https://github.com/AlejandroMartinezG/quality-hub)
+**Enterprise Quality Control Platform (QA/QC)**  
+A robust system designed to modernize industrial production logging and quality assurance.
+- **Purpose:** Centralize laboratory standards, real-time production monitoring, and Non-Conforming Reports (NCR) management.
+- **Tech Stack:** Next.js (App Router), TypeScript, Tailwind CSS, Supabase, TanStack Table, Zod, and shadcn/ui.
+- **Key Features:** 
+  - **Live Production Log:** High-precision data capture for real-time monitoring.
+  - **Advanced Analytics:** KPI dashboards (e.g., pH conformity) and automated PDF/Excel reports.
+  - **Role-Based Security:** RBAC implementation for laboratory, production, and admin roles.
+
+<p align="center">
+  <img src="assets/quality-hub/Panel_principal.png" width="45%" alt="Quality Hub Dashboard">
+  <img src="assets/quality-hub/Reportes_FTQ.png" width="45%" alt="Quality Hub Reports">
+</p>
+
+#### 2) [App_Compras](https://github.com/AlejandroMartinezG/App_Compras)
+**Logistics & Procurement Tracking System**  
+Specialized internal tool for "Cloro de Hidalgo" to optimize raw material supply chains.
+- **Purpose:** Automate the lifecycle of purchase requisitions and coordinate delivery logistics.
+- **Tech Stack:** Next.js, TypeScript, Supabase (PLpgSQL), and Tailwind CSS.
+- **Key Features:** 
+  - **Procurement Calendar:** Visual tracking of technical and logistics delivery schedules.
+  - **Multi-Role Approval:** Integrated flow between Laboratory and CEDIS to ensure supply integrity.
+  - **Real-time Status:** End-to-end monitoring from "Pending" to "Delivered" with instant updates.
+
+<p align="center">
+  <img src="assets/app-compras/calendario_dashboard.png" width="90%" alt="App Compras Calendar Dashboard">
+</p>
+
+
 
 ---
 
