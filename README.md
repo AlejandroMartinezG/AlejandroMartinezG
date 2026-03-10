@@ -1,87 +1,85 @@
 ## 👋 Alejandro — QA/QC + Data/BI + Automation + Web Systems
 
-I work at the intersection of **Chemical Quality (QA/QC)**, **data analytics**, **automation**, and **web development**.  
-My focus: build systems that help teams capture quality data correctly, find it fast, and use it to improve decisions.
+<p align="left">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
+
+Trabajo en la intersección de la **Calidad Química (QA/QC)**, el **Análisis de Datos**, la **Automatización** y el **Desarrollo Web**.  
+Mi enfoque: construir ecosistemas digitales que transforman la captura de datos industriales en información estratégica para la toma de decisiones.
 
 ---
 
-### 🔎 Areas of work
-- **Chemical QA/QC**: finished products, physicochemical parameters, traceability & documentation
-- **Web systems**: frontend + backend + databases for internal tools
-- **Data & automation**: workflows and interfaces that reduce friction and improve data quality
+### 🧰 Stack Tecnológico
+
+- **Lenguajes**: TypeScript, JavaScript, Python, SQL (PL/pgSQL)
+- **Web**: Next.js (App Router), React, Vite, Tailwind CSS, shadcn/ui
+- **Base de Datos**: PostgreSQL (Supabase)
+- **Automatización**: n8n, GitHub Actions
+- **BI & Herramientas**: Power BI, Docker, VPS, Git/GitHub
 
 ---
 
-### 🧰 Core stack
-- **Languages**: TypeScript, JavaScript, Python
-- **Web**: Next.js (App Router), Tailwind CSS, Supabase
-- **Database**: PostgreSQL (PLpgSQL), SQL
-- **Automation**: n8n, GitHub Actions
-- **Other**: VPS, Git/GitHub, Docker, Power BI
+### 📌 Proyectos Destacados
 
-
----
-
-### 📌 Featured projects
-
-#### 1) [quality-hub (PCC-GINEZ®)](https://github.com/AlejandroMartinezG/quality-hub)
-**Enterprise Quality Control Platform (QA/QC)**  
-A robust system designed to modernize industrial production logging and quality assurance.
-- **Purpose:** Centralize laboratory standards, real-time production monitoring, and Non-Conforming Reports (NCR) management.
-- **Tech Stack:** Next.js (App Router), TypeScript, Tailwind CSS, Supabase, TanStack Table, Zod, and shadcn/ui.
-- **Key Features:** 
-  - **Live Production Log:** High-precision data capture for real-time monitoring.
-  - **Advanced Analytics:** KPI dashboards (e.g., pH conformity) and automated PDF/Excel reports.
-  - **Role-Based Security:** RBAC implementation for laboratory, production, and admin roles.
+#### 🏢 1) [Quality Hub (PCC-GINEZ®)](https://github.com/AlejandroMartinezG/quality-hub)
+**Plataforma de Control de Calidad Empresarial (QA/QC)**  
+Sistema robusto diseñado para modernizar el registro de producción industrial y el aseguramiento de calidad en el **Laboratorio de Calidad y Desarrollo Ginez**.
+- **Impacto:** Digitalización total de estándares de laboratorio y monitoreo en tiempo real.
+- **Actualizaciones Recientes:** 
+  - Módulo **NCR (Non-Conformance Reports)** optimizado para una mejor trazabilidad.
+  - Sincronización avanzada de catálogos y filtrado inteligente de parámetros fisicoquímicos.
+- **Tech:** Next.js (App Router), TypeScript, Supabase, TanStack Table, Zod.
 
 <p align="center">
   <img src="assets/quality-hub/Panel_principal.png" width="45%" alt="Quality Hub Dashboard">
   <img src="assets/quality-hub/Reportes_FTQ.png" width="45%" alt="Quality Hub Reports">
 </p>
 
-#### 2) [App_Compras](https://github.com/AlejandroMartinezG/App_Compras)
-**Logistics & Procurement Tracking System**  
-Specialized internal tool for "Cloro de Hidalgo" to optimize raw material supply chains.
-- **Purpose:** Automate the lifecycle of purchase requisitions and coordinate delivery logistics.
-- **Tech Stack:** Next.js, TypeScript, Supabase (PLpgSQL), and Tailwind CSS.
-- **Key Features:** 
-  - **Procurement Calendar:** Visual tracking of technical and logistics delivery schedules.
-  - **Multi-Role Approval:** Integrated flow between Laboratory and CEDIS to ensure supply integrity.
-  - **Real-time Status:** End-to-end monitoring from "Pending" to "Delivered" with instant updates.
+#### 📦 2) [App_Compras](https://github.com/AlejandroMartinezG/App_Compras)
+**Sistema de Seguimiento Logístico y Adquisiciones**  
+Herramienta interna especializada para **Cloro de Hidalgo** diseñada para optimizar las cadenas de suministro de materia prima.
+- **Impacto:** Automatización del ciclo de vida de requisiciones y coordinación logística.
+- **Actualizaciones Recientes:** 
+  - **Rediseño Premium:** Interfaz renovada con tipografía corporativa (Avenir Next) y paleta de colores institucional.
+  - Flujo de aprobación multi-rol (Laboratorio/CEDIS) refinado para mayor agilidad.
+- **Tech:** Next.js, TypeScript, Supabase (PL/pgSQL), Tailwind CSS.
 
 <p align="center">
   <img src="assets/app-compras/calendario_dashboard.png" width="90%" alt="App Compras Calendar Dashboard">
 </p>
 
-
-
----
-
-### 📈 Impact (current)
-- Improved UI and streamlined information processing for production/quality logging
-- Reduced time and friction in data capture and record-keeping
-
----
-
-### 🤝 Collaboration / opportunities
-Open to: opportunities, code reviews, ideas, contributions, and suggestions.
+#### 🚚 3) [App_Pedidos_CEDIS](https://github.com/AlejandroMartinezG/App_Pedidos_CEDIS) — *¡Nuevo!*
+**Gestión B2B de Pedidos y Despacho Automatizado**  
+Ecosistema desarrollado para controlar el flujo de pedidos desde sucursales hacia un Centro de Distribución (CEDIS).
+- **Enlace Directo:** [pedidoscedisapp.vercel.app](https://pedidoscedisapp.vercel.app)
+- **Key Features:** 
+  - Workflow automatizado sucursal-CEDIS-logística.
+  - Integración de **Generador de Nóminas HINO** para procesos operativos.
+  - UI Corporativa con soporte global de Modo Oscuro y diseño dual-pane.
+- **Tech:** Vite, React, TypeScript, Supabase, shadcn/ui.
 
 ---
 
-### 📚 Currently learning
-Google Antigravity · Stitch · Google AI Studio · NotebookLM · Claude Code · Git/GitHub
+### 📈 Impacto y Objetivos
+- **Eficiencia:** Reducción drástica en la fricción de captura de datos y tiempos de respuesta.
+- **Trazabilidad:** Auditoría lista en tiempo real para procesos de calidad y compras.
+- **UX Premium:** Interfaces intuitivas que minimizan errores operativos.
 
 ---
 
-### 🧭 Principles
-- **Good manufacturing practices mindset**: traceability, standardization, clear documentation
-- **Data quality first**: validation, constraints, consistent identifiers, audit-ready logs
-- **Security by default**: least privilege, secrets management, safe deployment habits
-- **Pragmatism**: build small, measurable improvements that stick
+### 🤝 Colaboración y Aprendizaje
+- **Actualmente aprendiendo:** Google Antigravity · Agentic Coding · Multi-agent Systems · VPS Orchestration.
+- **Principios:** Trazabilidad extrema, documentación clara y seguridad por defecto.
 
 ---
 
-### 🌍 Languages
-Spanish (native) · English
+### 🌍 Idiomas
+Español (Nativo) · Inglés (Técnico)
 
-> Portfolio link: (coming soon)
+---
+
+> *"Transformando datos y procesos químicos en soluciones digitales de alto impacto."*
