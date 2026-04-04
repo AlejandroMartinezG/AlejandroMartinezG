@@ -1,4 +1,4 @@
-## 👋 Alejandro — Ingeniería de Software Industrial 
+## 👋 I.Q. Alejandro Martínez — Ingeniería de Software Químico-Industrial 
 
 <p align="left">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
